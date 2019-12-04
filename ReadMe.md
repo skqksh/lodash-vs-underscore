@@ -15,7 +15,7 @@
 - npm run test:range
 - npm run test:etc
 
-# Rseful Docs
+# Useful Docs
 
  - https://benmccormick.org/2014/11/12/underscore-vs-lodash
  - https://dev.to/bouhm/using-underscore-lodash-yea-or-nay-5f1j
