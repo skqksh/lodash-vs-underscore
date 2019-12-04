@@ -1,0 +1,30 @@
+{
+  "name": "lodashVsUnderscore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    // "start": "babel-node ./src/index.js",
+    "test:each": "mocha --require @babel/register ./src/test/each.test.js --timeout 999999",
+    "test:map": "mocha --require @babel/register ./src/test/map.test.js --timeout 999999",
+    "test:range": "mocha --require @babel/register ./src/test/range.test.js --timeout 999999",
+    "test:etc": "mocha --require @babel/register ./src/test/etc.test.js --timeout 999999"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "chai": "^4.2.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.2",
+    "underscore": "^1.9.1"
+  }
+}
